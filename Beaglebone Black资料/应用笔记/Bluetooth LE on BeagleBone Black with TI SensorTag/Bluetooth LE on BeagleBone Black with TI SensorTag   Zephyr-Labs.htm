@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://www.zephyr-labs.com/?p=87 -->
+<html lang="en-US"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<title>Bluetooth LE on BeagleBone Black with TI SensorTag | Zephyr-Labs</title>
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="stylesheet" type="text/css" media="all" href="./Bluetooth LE on BeagleBone Black with TI SensorTag   Zephyr-Labs_files/style.css">
+<link rel="pingback" href="http://www.zephyr-labs.com/xmlrpc.php">
+<link rel="alternate" type="application/rss+xml" title="Zephyr-Labs » Feed" href="http://www.zephyr-labs.com/?feed=rss2">
+<link rel="alternate" type="application/rss+xml" title="Zephyr-Labs » Comments Feed" href="http://www.zephyr-labs.com/?feed=comments-rss2">
+<link rel="alternate" type="application/rss+xml" title="Zephyr-Labs » Bluetooth LE on BeagleBone Black with TI SensorTag Comments Feed" href="http://www.zephyr-labs.com/?feed=rss2&p=87">
+<script id="twitter-wjs" src="http://platform.twitter.com/widgets.js"></script><script type="text/javascript" src="./Bluetooth LE on BeagleBone Black with TI SensorTag   Zephyr-Labs_files/comment-reply.min.js"></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.zephyr-labs.com/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.zephyr-labs.com/wp-includes/wlwmanifest.xml"> 
+<link rel="prev" title="Stock Tank Filler" href="http://www.zephyr-labs.com/?p=14">
+<link rel="next" title="Beaglebone Black SPI and Microchip 25LC512" href="http://www.zephyr-labs.com/?p=139">
+<meta name="generator" content="WordPress 3.6">
+<link rel="canonical" href="./Bluetooth LE on BeagleBone Black with TI SensorTag   Zephyr-Labs_files/Bluetooth LE on BeagleBone Black with TI SensorTag   Zephyr-Labs.htm">
+<script id="ruyisomain" type="text/javascript" charset="utf-8" src="./Bluetooth LE on BeagleBone Black with TI SensorTag   Zephyr-Labs_files/ruyiso.main.js"></script><script type="text/javascript" async="" src="./Bluetooth LE on BeagleBone Black with TI SensorTag   Zephyr-Labs_files/jquery-1.7.2.min.js"></script><link rel="stylesheet" href="./Bluetooth LE on BeagleBone Black with TI SensorTag   Zephyr-Labs_files/rys-elfin.css" type="text/css"><script type="text/javascript" async="" src="./Bluetooth LE on BeagleBone Black with TI SensorTag   Zephyr-Labs_files/jquery-eject-0.2.js"></script><script type="text/javascript" async="" src="./Bluetooth LE on BeagleBone Black with TI SensorTag   Zephyr-Labs_files/rys.elfin-0.2.js"></script></head>
+
+<body class="single single-post postid-87 single-format-standard">
+<div id="wrapper" class="hfeed">
+	<div id="header">
+		<div id="masthead">
+			<div id="branding" role="banner">
+								<div id="site-title">
+					<span>
+						<a href="http://www.zephyr-labs.com/" title="Zephyr-Labs" rel="home">Zephyr-Labs</a>
+					</span>
+				</div>
+				<div id="site-description">You can lead a horse to water….</div>
+
+										<img src="./Bluetooth LE on BeagleBone Black with TI SensorTag   Zephyr-Labs_files/cropped-Ranch.jpg" width="940" height="198" alt="">
+								</div><!-- #branding -->
+
+			<div id="access" role="navigation">
+			  				<div class="skip-link screen-reader-text"><a href="http://www.zephyr-labs.com/?p=87#content" title="Skip to content">Skip to content</a></div>
+								<div class="menu-header"><ul id="menu-home" class="menu"><li id="menu-item-80" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80"><a href="http://www.zephyr-labs.com/?cat=3">Stock Tank Filler</a></li>
+<li id="menu-item-81" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-81"><a href="http://www.zephyr-labs.com/?cat=6">BeagleBone Black</a></li>
+</ul></div>			</div><!-- #access -->
+		</div><!-- #masthead -->
+	</div><!-- #header -->
+
+	<div id="main">
+
+		<div id="container">
+			<div id="content" role="main">
+
+			
+
+				<div id="nav-above" class="navigation">
+					<div class="nav-previous"><a href="http://www.zephyr-labs.com/?p=14" rel="prev"><span class="meta-nav">←</span> Stock Tank Filler</a></div>
+					<div class="nav-next"><a href="http://www.zephyr-labs.com/?p=139" rel="next">Beaglebone Black SPI and Microchip 25LC512 <span class="meta-nav">→</span></a></div>
+				</div><!-- #nav-above -->
+
+				<div id="post-87" class="post-87 post type-post status-publish format-standard hentry category-beaglebone-black">
+					<h1 class="entry-title">Bluetooth LE on BeagleBone Black with TI SensorTag</h1>
+
+					<div class="entry-meta">
+						<span class="meta-prep meta-prep-author">Posted on</span> <a href="./Bluetooth LE on BeagleBone Black with TI SensorTag   Zephyr-Labs_files/Bluetooth LE on BeagleBone Black with TI SensorTag   Zephyr-Labs.htm" title="1:52 pm" rel="bookmark"><span class="entry-date">July 15, 2013</span></a> <span class="meta-sep">by</span> <span class="author vcard"><a class="url fn n" href="http://www.zephyr-labs.com/?author=1" title="View all posts by admin">admin</a></span>					</div><!-- .entry-meta -->
+
+					<div class="entry-content">
+						<p>Picked up a&nbsp;<a title="TI SensorTag" href="http://www.ti.com/ww/en/wireless_connectivity/sensortag/index.shtml?DCMP=sensortag&HQS=sensortag-bn">SensorTag</a>&nbsp;from TI recently and decided to see if I could get the BeagleBone Black (BBB) to <a href="./Bluetooth LE on BeagleBone Black with TI SensorTag   Zephyr-Labs_files/SensorTag.jpg"><img class="alignright size-full wp-image-68" alt="SensorTag" src="./Bluetooth LE on BeagleBone Black with TI SensorTag   Zephyr-Labs_files/SensorTag.jpg" width="82" height="180"></a> <a href="./Bluetooth LE on BeagleBone Black with TI SensorTag   Zephyr-Labs_files/bbb.jpg"><img class="alignright size-full wp-image-73" alt="bbb" src="./Bluetooth LE on BeagleBone Black with TI SensorTag   Zephyr-Labs_files/bbb.jpg" width="200" height="200"></a>interact with it. &nbsp;I started with this&nbsp;<a href="http://mike.saunby.net/2013/04/raspberry-pi-and-ti-cc2541-sensortag.html">posting</a>&nbsp;by Mike Saunby for the Raspberry Pi. Below are the steps I took to get my&nbsp;<a title="IOGear LE Bluetooth adapter" href="http://www.amazon.com/dp/B007GFX0PY">IOGEAR B</a><a title="IOGear LE Bluetooth adapter" href="http://www.amazon.com/dp/B007GFX0PY">luetooth 4.0 USB Micro Adapter (GBU521)</a>&nbsp;working on the latest Angstrom distribution for the BBB.</p>
+<p>First step, edit</p>
+<pre>/var/lib/connman/settings</pre>
+<p>to enable bluetooth:</p>
+<pre>[global]<br clear="none">OfflineMode=false
+
+[Wired]
+Enable=true
+
+[WiFi]
+Enable=true
+
+[Bluetooth]
+Enable=false&nbsp;&nbsp; &nbsp;&lt;====== change to true</pre>
+<p>Shutdown the BBB, plug the IOGear adapter into the USB port, and boot the BBB.</p>
+<div># hcitool dev</div>
+<div><span style="color: #3366ff;">Devices:</span></div>
+<div># hci config -a</div>
+<div><span style="color: #3366ff;">hci0: Type: BR/EDR Bus: USB</span><br clear="none"><span style="color: #3366ff;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;BD Address: 00:02:72:3E:7C:EB ACL MTU: 1021:8 SCO MTU: 64:1</span><br clear="none"><span style="color: #3366ff;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;DOWN</span><br clear="none"><span style="color: #3366ff;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; RX bytes:495 acl:0 sco:0 events:22 errors:0</span><br clear="none"><span style="color: #3366ff;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; TX bytes:369 acl:0 sco:0 commands:22 errors:0</span><br clear="none"><span style="color: #3366ff;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Features: 0xbf 0xfe 0xcf 0xfe 0xdb 0xff 0x7b 0×87</span><br clear="none"><span style="color: #3366ff;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Packet type: DM1 DM3 DM5 DH1 DH3 DH5 HV1 HV2 HV3</span><br clear="none"><span style="color: #3366ff;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Link policy: RSWITCH SNIFF</span><br clear="none"><span style="color: #3366ff;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Link mode: SLAVE ACCEPT</span></div>
+<div># lsusb</div>
+<div><span style="color: #3366ff;">Bus 001 Device 002: ID 0a5c:21e8 Broadcom Corp.</span></div>
+<div><span style="color: #3366ff;">Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub</span></div>
+<div><span style="color: #3366ff;">Bus 002 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub</span></div>
+<div></div>
+<div>#hciconfig hci0 piscan &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&lt;—– See note blow labeled PISCAN</div>
+<div># hciconfig -a</div>
+<div><span style="color: #3366ff;">hci0: Type: BR/EDR Bus: USB</span></div>
+<div><span style="color: #3366ff;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;BD Address: 00:02:72:3E:7C:EB ACL MTU: 1021:8 SCO MTU: 64:1</span></div>
+<div><span style="color: #3366ff;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;UP RUNNING PSCAN ISCAN</span></div>
+<div><span style="color: #3366ff;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;RX bytes:996 acl:0 sco:0 events:45 errors:0</span></div>
+<div><span style="color: #3366ff;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;TX bytes:742 acl:0 sco:0 commands:45 errors:0</span></div>
+<div><span style="color: #3366ff;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Features: 0xbf 0xfe 0xcf 0xfe 0xdb 0xff 0x7b 0×87</span></div>
+<div><span style="color: #3366ff;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Packet type: DM1 DM3 DM5 DH1 DH3 DH5 HV1 HV2 HV3</span></div>
+<div><span style="color: #3366ff;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Link policy: RSWITCH SNIFF</span></div>
+<div><span style="color: #3366ff;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Link mode: SLAVE ACCEPT</span></div>
+<div><span style="color: #3366ff;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Name: ‘BCM20702A’</span></div>
+<div><span style="color: #3366ff;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Class: 0×000000</span></div>
+<div><span style="color: #3366ff;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Service Classes: Unspecified</span></div>
+<div><span style="color: #3366ff;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Device Class: Miscellaneous,</span></div>
+<div><span style="color: #3366ff;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;HCI Version: 4.0 (0×6) Revision: 0×1000</span></div>
+<div><span style="color: #3366ff;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;LMP Version: 4.0 (0×6) Subversion: 0x220e</span></div>
+<div><span style="color: #3366ff;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Manufacturer: Broadcom Corporation (15)</span></div>
+<div></div>
+<div># hcitool lescan</div>
+<div><span style="color: #3366ff;">LE Scan …</span></div>
+<div><span style="color: #3366ff;">90:59:AF:0A:A9:D8 (unknown)</span></div>
+<div><span style="color: #3366ff;">90:59:AF:0A:A9:D8 SensorTag</span></div>
+<div></div>
+<div>(hit cntrl-C to exit)</div>
+<div></div>
+<div># hcitool lecc 90:59:AF:0A:A9:D8<br clear="none"><span style="color: #3366ff;">Connection handle 64</span></div>
+<p>Now to tell the SensorTag to return some data:</p>
+<div># gatttool -b 90:59:AF:0A:A9:D8 –interactive</div>
+<div><span style="color: #3366ff;">[ ][90:59:AF:0A:A9:D8][LE]&gt;&nbsp;connect</span><br clear="none"><span style="color: #3366ff;">[CON][90:59:AF:0A:A9:D8][LE]&gt;&nbsp;char-read-hnd 0×25</span><br clear="none"><span style="color: #3366ff;">[CON][90:59:AF:0A:A9:D8][LE]&gt;</span><br clear="none"><span style="color: #3366ff;">Characteristic value/descriptor: 00 00 00 00</span><br clear="none"><span style="color: #3366ff;">[CON][90:59:AF:0A:A9:D8][LE]&gt;&nbsp;char-write-cmd 0×29 01</span><br clear="none"><span style="color: #3366ff;">[CON][90:59:AF:0A:A9:D8][LE]&gt;&nbsp;char-read-hnd 0×25</span><br clear="none"><span style="color: #3366ff;">[CON][90:59:AF:0A:A9:D8][LE]&gt;</span><br clear="none"><span style="color: #3366ff;">Characteristic value/descriptor: b7 ff a0 0c</span></div>
+<p>&nbsp;</p>
+<p>At this point, everything is working!</p>
+<p>I proceeded to use Mike’s code on&nbsp;<a title="Mike Saunby&#39;s code to interact with SensorTag" href="https://github.com/msaunby/ble-sensor-pi">github</a>&nbsp;to test. &nbsp;I started with sensorTag_test.py as it repeatedly gives the temperature – I had to download/install pexpect first:</p>
+<pre> # wget <a title="http://pexpect.sourceforge.net/pexpect-2.3.tar.gz" href="http://pexpect.sourceforge.net/pexpect-2.3.tar.gz" rel="nofollow">http://pexpect.sourceforge.net/pexpect-2.3.tar.gz</a>
+ # tar xzf pexpect-2.3.tar.gz
+ # cd pexpect-2.3
+ # python ./setup.py install</pre>
+<p>Now I can run the test:</p>
+<p># python sensortag_test.py 90:59:AF:0A:A9:D8<br>
+<span style="color: #3366ff;">Preparing to connect. You might need to press the side button…</span><br>
+<span style="color: #3366ff;">27.49 C</span><br>
+<span style="color: #3366ff;">30.26 C</span><br>
+<span style="color: #3366ff;">29.07 C</span><br>
+<span style="color: #3366ff;">28.05 C</span><br>
+<span style="color: #3366ff;">27.76 C</span><br>
+<span style="color: #3366ff;">27.89 C</span></p>
+<p>Hurray – working!</p>
+<p>You can continue with Mike’s python code that reads all the sensors.</p>
+<p>Note:&nbsp;&nbsp;there was no need to build a copy of gattool or to build bluez-5.2 unlike what Mike had to do for the Pi.</p>
+<p>So it is a simple procedure with all the right info – but I was stumped on getting the BBB to recognize the bluetooth adapter until I came across this<a href="http://osdir.com/ml/beagleboard/2012-04/msg00932.html">&nbsp;posting</a>&nbsp;to edit /var/lib/connman/settings to enable bluetooth.</p>
+<p>Here is the version of Angstrom all this worked on:</p>
+<p># uname -a<br>
+<span style="color: #3366ff;">Linux 3.8.13 #1 SMP Tue Jun 18 02:11:09 EDT 2013 armv7l GNU/Linux</span></p>
+<p><strong>PISCAN note:</strong></p>
+<address>After a subsequent reboot of the BBB, I had to add a step:</address>
+<address style="padding-left: 30px;"># hcitool dev</address>
+<address style="padding-left: 30px;">DEVICES:</address>
+<address style="padding-left: 30px;"># hciconfig -a</address>
+<address style="padding-left: 30px;">hci0: Type: BR/EDR Bus: USB<br>
+BD Address: 00:02:72:3E:7C:EB ACL MTU: 1021:8 SCO MTU: 64:1<br>
+DOWN<br>
+RX bytes:495 acl:0 sco:0 events:22 errors:0<br>
+TX bytes:369 acl:0 sco:0 commands:22 errors:0<br>
+Features: 0xbf 0xfe 0xcf 0xfe 0xdb 0xff 0x7b 0×87<br>
+Packet type: DM1 DM3 DM5 DH1 DH3 DH5 HV1 HV2 HV3<br>
+Link policy: RSWITCH SNIFF<br>
+Link mode: SLAVE ACCEPT</address>
+<address style="padding-left: 30px;">On the third line of the response, you see the word DOWN, so I did the following:</address>
+<address style="padding-left: 30px;"># hciconfig hci0 up</address>
+<address style="padding-left: 30px;"># hciconfig dev</address>
+<address style="padding-left: 30px;">hci0: Type: BR/EDR Bus: USB<br>
+BD Address: 00:02:72:3E:7C:EB ACL MTU: 1021:8 SCO MTU: 64:1<br>
+UP RUNNING<br>
+RX bytes:990 acl:0 sco:0 events:44 errors:0<br>
+TX bytes:738 acl:0 sco:0 commands:44 errors:0</address>
+<address style="padding-left: 30px;">Now notice UP RUNNING on the third line!</address>
+<address style="padding-left: 30px;">Continuing on:</address>
+<address style="padding-left: 30px;"># hciconfig hci0 piscan</address>
+<address style="padding-left: 30px;"># hciconfig -a</address>
+<address style="padding-left: 30px;">hci0: Type: BR/EDR Bus: USB<br>
+BD Address: 00:02:72:3E:7C:EB ACL MTU: 1021:8 SCO MTU: 64:1<br>
+UP RUNNING PSCAN ISCAN<br>
+RX bytes:996 acl:0 sco:0 events:45 errors:0<br>
+TX bytes:742 acl:0 sco:0 commands:45 errors:0<br>
+Features: 0xbf 0xfe 0xcf 0xfe 0xdb 0xff 0x7b 0×87<br>
+Packet type: DM1 DM3 DM5 DH1 DH3 DH5 HV1 HV2 HV3<br>
+Link policy: RSWITCH SNIFF<br>
+Link mode: SLAVE ACCEPT<br>
+Name: ‘BCM20702A’<br>
+Class: 0×000000<br>
+Service Classes: Unspecified<br>
+Device Class: Miscellaneous,<br>
+HCI Version: 4.0 (0×6) Revision: 0×1000<br>
+LMP Version: 4.0 (0×6) Subversion: 0x220e<br>
+Manufacturer: Broadcom Corporation (15)</address>
+<address style="padding-left: 30px;"># hcitool lescan<br>
+LE Scan …<br>
+90:59:AF:0A:A9:D8 (unknown)<br>
+90:59:AF:0A:A9:D8 SensorTag</address>
+<address style="padding-left: 30px;">cntrl+c</address>
+<address style="padding-left: 30px;"># hcitool lecc 90:59:AF:0A:A9:D8<br>
+Connection handle 64</address>
+<p style="padding-left: 30px;">Then I went back to the flow above…</p>
+<p><strong>Other posts leveraged:</strong></p>
+<p><a href="http://ferryzhou.wordpress.com/2011/08/01/beagleboard-angstrom-usb-bluetooth-enable/">http://ferryzhou.wordpress.com/2011/08/01/beagleboard-angstrom-usb-bluetooth-enable/</a></p>
+<p><a href="http://www.noah.org/wiki/pexpect#Download_and_Installation">http://www.noah.org/wiki/pexpect#Download_and_Installation</a></p>
+<p><a href="http://yetiblog1337.wordpress.com/2013/06/02/raspberry-pi-bluetooth-dongle-does-not-work/">http://yetiblog1337.wordpress.com/2013/06/02/raspberry-pi-bluetooth-dongle-does-not-work/</a></p>
+											</div><!-- .entry-content -->
+
+
+					<div class="entry-utility">
+						This entry was posted in <a href="http://www.zephyr-labs.com/?cat=6" title="View all posts in BeagleBone Black" rel="category">BeagleBone Black</a>. Bookmark the <a href="./Bluetooth LE on BeagleBone Black with TI SensorTag   Zephyr-Labs_files/Bluetooth LE on BeagleBone Black with TI SensorTag   Zephyr-Labs.htm" title="Permalink to Bluetooth LE on BeagleBone Black with TI SensorTag" rel="bookmark">permalink</a>.											</div><!-- .entry-utility -->
+				</div><!-- #post-## -->
+
+				<div id="nav-below" class="navigation">
+					<div class="nav-previous"><a href="http://www.zephyr-labs.com/?p=14" rel="prev"><span class="meta-nav">←</span> Stock Tank Filler</a></div>
+					<div class="nav-next"><a href="http://www.zephyr-labs.com/?p=139" rel="next">Beaglebone Black SPI and Microchip 25LC512 <span class="meta-nav">→</span></a></div>
+				</div><!-- #nav-below -->
+
+				
+			<div id="comments">
+
+
+			<h3 id="comments-title">4 Responses to <em>Bluetooth LE on BeagleBone Black with TI SensorTag</em></h3>
+
+
+			<ol class="commentlist">
+					<li class="comment even thread-even depth-1" id="li-comment-1712">
+		<div id="comment-1712">
+			<div class="comment-author vcard">
+				<img alt="" src="./Bluetooth LE on BeagleBone Black with TI SensorTag   Zephyr-Labs_files/ea41c0a9f3d63346671a9dc33c662b7c" class="avatar avatar-40 photo" height="40" width="40">				<cite class="fn">Mike Vartanian</cite> <span class="says">says:</span>			</div><!-- .comment-author .vcard -->
+			
+			<div class="comment-meta commentmetadata"><a href="http://www.zephyr-labs.com/?p=87#comment-1712">
+				November 15, 2013 at 10:19 am</a>			</div><!-- .comment-meta .commentmetadata -->
+
+			<div class="comment-body"><p>Thanks for this useful tutorial… It seems to work much better on the beaglebone than on the pi.</p>
+<p>I ran into a slight issue when trying install pexpect. When initiating the python ./setup.py install command, i receive an ImportError: No module named distutils.core. I am assuming there is some other code I need to download as well?</p>
+<p>Thanks,<br>
+Mike</p>
+</div>
+
+			<div class="reply">
+				<a class="comment-reply-link" href="http://www.zephyr-labs.com/?p=87&replytocom=1712#respond" onclick="return addComment.moveForm(&quot;comment-1712&quot;, &quot;1712&quot;, &quot;respond&quot;, &quot;87&quot;)">Reply</a>			</div><!-- .reply -->
+		</div><!-- #comment-##  -->
+
+	<ul class="children">
+	<li class="comment odd alt depth-2" id="li-comment-1713">
+		<div id="comment-1713">
+			<div class="comment-author vcard">
+				<img alt="" src="./Bluetooth LE on BeagleBone Black with TI SensorTag   Zephyr-Labs_files/ea41c0a9f3d63346671a9dc33c662b7c" class="avatar avatar-40 photo" height="40" width="40">				<cite class="fn">Mike Vartanian</cite> <span class="says">says:</span>			</div><!-- .comment-author .vcard -->
+			
+			<div class="comment-meta commentmetadata"><a href="http://www.zephyr-labs.com/?p=87#comment-1713">
+				November 15, 2013 at 12:33 pm</a>			</div><!-- .comment-meta .commentmetadata -->
+
+			<div class="comment-body"><p>Well i was able to resolve the above error by using setuptools instead of disutils.core.</p>
+<p>There were a couple other missing files that were added from <a href="https://groups.google.com/forum/#!topic/beaglebone/LU6LoEs-zHQ" rel="nofollow">https://groups.google.com/forum/#!topic/beaglebone/LU6LoEs-zHQ</a></p>
+</div>
+
+			<div class="reply">
+				<a class="comment-reply-link" href="http://www.zephyr-labs.com/?p=87&replytocom=1713#respond" onclick="return addComment.moveForm(&quot;comment-1713&quot;, &quot;1713&quot;, &quot;respond&quot;, &quot;87&quot;)">Reply</a>			</div><!-- .reply -->
+		</div><!-- #comment-##  -->
+
+	</li><!-- #comment-## -->
+	<li class="comment byuser comment-author-admin bypostauthor even depth-2" id="li-comment-1715">
+		<div id="comment-1715">
+			<div class="comment-author vcard">
+				<img alt="" src="./Bluetooth LE on BeagleBone Black with TI SensorTag   Zephyr-Labs_files/8943ae8aea2348eed71c018d69e02aae" class="avatar avatar-40 photo" height="40" width="40">				<cite class="fn">admin</cite> <span class="says">says:</span>			</div><!-- .comment-author .vcard -->
+			
+			<div class="comment-meta commentmetadata"><a href="http://www.zephyr-labs.com/?p=87#comment-1715">
+				November 15, 2013 at 12:35 pm</a>			</div><!-- .comment-meta .commentmetadata -->
+
+			<div class="comment-body"><p>Mike – I vaguely remember running into this and can’t remember how I resolved it, sorry.  I’ll try a fresh install when I get back from travels (1 week) and see if my memory is jogged.</p>
+</div>
+
+			<div class="reply">
+				<a class="comment-reply-link" href="http://www.zephyr-labs.com/?p=87&replytocom=1715#respond" onclick="return addComment.moveForm(&quot;comment-1715&quot;, &quot;1715&quot;, &quot;respond&quot;, &quot;87&quot;)">Reply</a>			</div><!-- .reply -->
+		</div><!-- #comment-##  -->
+
+	</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+	<li class="comment odd alt thread-odd thread-alt depth-1" id="li-comment-1714">
+		<div id="comment-1714">
+			<div class="comment-author vcard">
+				<img alt="" src="./Bluetooth LE on BeagleBone Black with TI SensorTag   Zephyr-Labs_files/ea41c0a9f3d63346671a9dc33c662b7c" class="avatar avatar-40 photo" height="40" width="40">				<cite class="fn">Mike Vartanian</cite> <span class="says">says:</span>			</div><!-- .comment-author .vcard -->
+			
+			<div class="comment-meta commentmetadata"><a href="http://www.zephyr-labs.com/?p=87#comment-1714">
+				November 15, 2013 at 12:34 pm</a>			</div><!-- .comment-meta .commentmetadata -->
+
+			<div class="comment-body"><p>I now am getting an error with pexpect. It is expecting a resource.py file that is not present.  Any suggestions on where to get this file? Or should this not be an issue?</p>
+<p>Thanks,<br>
+Mike</p>
+</div>
+
+			<div class="reply">
+				<a class="comment-reply-link" href="http://www.zephyr-labs.com/?p=87&replytocom=1714#respond" onclick="return addComment.moveForm(&quot;comment-1714&quot;, &quot;1714&quot;, &quot;respond&quot;, &quot;87&quot;)">Reply</a>			</div><!-- .reply -->
+		</div><!-- #comment-##  -->
+
+	</li><!-- #comment-## -->
+			</ol>
+
+
+	
+
+								<div id="respond" class="comment-respond">
+				<h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="http://www.zephyr-labs.com/?p=87#respond" style="display:none;">Cancel reply</a></small></h3>
+									<form action="http://www.zephyr-labs.com/wp-comments-post.php" method="post" id="commentform" class="comment-form">
+																			<p class="comment-notes">Your email address will not be published. Required fields are marked <span class="required">*</span></p>							<p class="comment-form-author"><label for="author">Name <span class="required">*</span></label> <input id="author" name="author" type="text" value="" size="30" aria-required="true"></p>
+<p class="comment-form-email"><label for="email">Email <span class="required">*</span></label> <input id="email" name="email" type="text" value="" size="30" aria-required="true"></p>
+<p class="comment-form-url"><label for="url">Website</label> <input id="url" name="url" type="text" value="" size="30"></p>
+												<p class="comment-form-comment"><label for="comment">Comment</label> <textarea id="comment" name="comment" cols="45" rows="8" aria-required="true"></textarea></p>						<p class="form-allowed-tags">You may use these <abbr title="HyperText Markup Language">HTML</abbr> tags and attributes:  <code>&lt;a href="" title=""&gt; &lt;abbr title=""&gt; &lt;acronym title=""&gt; &lt;b&gt; &lt;blockquote cite=""&gt; &lt;cite&gt; &lt;code&gt; &lt;del datetime=""&gt; &lt;em&gt; &lt;i&gt; &lt;q cite=""&gt; &lt;strike&gt; &lt;strong&gt; </code></p>						<p class="form-submit">
+							<input name="submit" type="submit" id="submit" value="Post Comment">
+							<input type="hidden" name="comment_post_ID" value="87" id="comment_post_ID">
+<input type="hidden" name="comment_parent" id="comment_parent" value="0">
+						</p>
+											</form>
+							</div><!-- #respond -->
+						
+</div><!-- #comments -->
+
+
+			</div><!-- #content -->
+		</div><!-- #container -->
+
+
+		<div id="primary" class="widget-area" role="complementary">
+			<ul class="xoxo">
+
+<li id="search-2" class="widget-container widget_search"><form role="search" method="get" id="searchform" class="searchform" action="http://www.zephyr-labs.com/">
+				<div>
+					<label class="screen-reader-text" for="s">Search for:</label>
+					<input type="text" value="" name="s" id="s">
+					<input type="submit" id="searchsubmit" value="Search">
+				</div>
+			</form></li><li id="text-2" class="widget-container widget_text"><h3 class="widget-title">Twitter</h3>			<div class="textwidget"><a href="https://twitter.com/maddox_zephyr" class="twitter-follow-button" data-show-count="false">Follow @maddox_zephyr</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></div>
+		</li>		<li id="recent-posts-2" class="widget-container widget_recent_entries">		<h3 class="widget-title">Recent Posts</h3>		<ul>
+					<li>
+				<a href="http://www.zephyr-labs.com/?p=139" title="Beaglebone Black SPI and Microchip 25LC512">Beaglebone Black SPI and Microchip 25LC512</a>
+						</li>
+					<li>
+				<a href="./Bluetooth LE on BeagleBone Black with TI SensorTag   Zephyr-Labs_files/Bluetooth LE on BeagleBone Black with TI SensorTag   Zephyr-Labs.htm" title="Bluetooth LE on BeagleBone Black with TI SensorTag">Bluetooth LE on BeagleBone Black with TI SensorTag</a>
+						</li>
+					<li>
+				<a href="http://www.zephyr-labs.com/?p=14" title="Stock Tank Filler">Stock Tank Filler</a>
+						</li>
+				</ul>
+		</li><li id="recent-comments-2" class="widget-container widget_recent_comments"><h3 class="widget-title">Recent Comments</h3><ul id="recentcomments"><li class="recentcomments">admin on <a href="http://www.zephyr-labs.com/?p=87#comment-1715">Bluetooth LE on BeagleBone Black with TI SensorTag</a></li><li class="recentcomments">Mike Vartanian on <a href="http://www.zephyr-labs.com/?p=87#comment-1714">Bluetooth LE on BeagleBone Black with TI SensorTag</a></li><li class="recentcomments">Mike Vartanian on <a href="http://www.zephyr-labs.com/?p=87#comment-1713">Bluetooth LE on BeagleBone Black with TI SensorTag</a></li><li class="recentcomments">Mike Vartanian on <a href="http://www.zephyr-labs.com/?p=87#comment-1712">Bluetooth LE on BeagleBone Black with TI SensorTag</a></li><li class="recentcomments">admin on <a href="http://www.zephyr-labs.com/?p=14#comment-757">Stock Tank Filler</a></li></ul></li><li id="archives-2" class="widget-container widget_archive"><h3 class="widget-title">Archives</h3>		<ul>
+			<li><a href="http://www.zephyr-labs.com/?m=201403" title="March 2014">March 2014</a></li>
+	<li><a href="http://www.zephyr-labs.com/?m=201307" title="July 2013">July 2013</a></li>
+	<li><a href="http://www.zephyr-labs.com/?m=201205" title="May 2012">May 2012</a></li>
+		</ul>
+</li><li id="categories-2" class="widget-container widget_categories"><h3 class="widget-title">Categories</h3>		<ul>
+	<li class="cat-item cat-item-6"><a href="http://www.zephyr-labs.com/?cat=6" title="View all posts filed under BeagleBone Black">BeagleBone Black</a>
+</li>
+	<li class="cat-item cat-item-3"><a href="http://www.zephyr-labs.com/?cat=3" title="View all posts filed under Stock Tank Filler">Stock Tank Filler</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="http://www.zephyr-labs.com/?cat=1" title="View all posts filed under Uncategorized">Uncategorized</a>
+</li>
+		</ul>
+</li><li id="meta-2" class="widget-container widget_meta"><h3 class="widget-title">Meta</h3>			<ul>
+						<li><a href="http://www.zephyr-labs.com/wp-login.php">Log in</a></li>
+			<li><a href="http://www.zephyr-labs.com/?feed=rss2" title="Syndicate this site using RSS 2.0">Entries <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="http://www.zephyr-labs.com/?feed=comments-rss2" title="The latest comments to all posts in RSS">Comments <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="http://wordpress.org/" title="Powered by WordPress, state-of-the-art semantic personal publishing platform.">WordPress.org</a></li>						</ul>
+</li><li id="pages-2" class="widget-container widget_pages"><h3 class="widget-title">Pages</h3>		<ul>
+			<li class="page_item page-item-98"><a href="http://www.zephyr-labs.com/?page_id=98">Beaglebone Black SPI and Micron 25LC512</a></li>
+<li class="page_item page-item-67"><a href="http://www.zephyr-labs.com/?page_id=67">Bluetooth LE on BeagleBone Black with TI SensorTag</a></li>
+		</ul>
+		</li>			</ul>
+		</div><!-- #primary .widget-area -->
+
+	</div><!-- #main -->
+
+	<div id="footer" role="contentinfo">
+		<div id="colophon">
+
+
+
+			<div id="site-info">
+				<a href="http://www.zephyr-labs.com/" title="Zephyr-Labs" rel="home">
+					Zephyr-Labs				</a>
+			</div><!-- #site-info -->
+
+			<div id="site-generator">
+								<a href="http://wordpress.org/" title="Semantic Personal Publishing Platform">Proudly powered by WordPress.</a>
+			</div><!-- #site-generator -->
+
+		</div><!-- #colophon -->
+	</div><!-- #footer -->
+
+</div><!-- #wrapper -->
+
+
+
+<embed type="application/xl_chrome_plugin" width="0" height="0" style="visibility: hidden;"><div class="sogoutip" style="z-index: 2147483645; visibility: hidden; display: none;"></div><div class="sogoubottom" id="sougou_bottom" style="display: none;"></div><div id="ext_stophi" style="z-index: 2147483647;"><div class="extnoticebg"></div><div class="extnotice"><h2>关闭提示 <a href="http://www.zephyr-labs.com/?p=87#" title="关闭提示" id="closenotice" class="closenotice">关闭</a></h2><p id="sogouconfirmtxt"></p>  <a id="sogouconfirm" href="http://www.zephyr-labs.com/?p=87#" class="extconfirm">确 认</a> <a id="sogoucancel" href="http://www.zephyr-labs.com/?p=87#" class="extconfirm">取 消</a></div></div><div id="ext_overlay" class="ext_overlayBG" style="display: none; z-index: 2147483646;"></div><iframe class="sogou_sugg_feedbackquan" frameborder="0" scrolling="no" src="./Bluetooth LE on BeagleBone Black with TI SensorTag   Zephyr-Labs_files/yun1.htm" style="background-color: transparent; border: none; display: none; z-index: 2147483645; background-position: initial initial; background-repeat: initial initial;"></iframe><object id="ruyisoplugin" type="application/x-ruyisoassistplg" width="0" height="0" style="position: absolute; top: -9999px; left: -9999px;"></object><div id="rys-elfin" style="border: none; cursor: move; opacity: 0.1;"><img src="./Bluetooth LE on BeagleBone Black with TI SensorTag   Zephyr-Labs_files/rys-logo.png" class="rys-nest" style="width: 30px; height: 30px;"><div id="" class="rys-birdie" cat="video" style="opacity: 0.3;"><a href="javascript:void(0);" class="rys-birdie-central rys-birdie-central-video"></a></div><div id="" class="rys-birdie" cat="music" style="opacity: 0.3;"><a href="javascript:void(0);" class="rys-birdie-central  rys-birdie-central-music"></a></div><div id="" class="rys-birdie" cat="game" style="opacity: 0.3;"><a href="javascript:void(0);" class="rys-birdie-central rys-birdie-central-game"></a></div><div id="" class="rys-birdie" cat="nav" style="opacity: 0.3;"><a href="javascript:void(0);" class="rys-birdie-central rys-birdie-central-nav"></a></div><div id="" class="rys-birdie" cat="android" style="opacity: 0.3;"><a href="javascript:void(0);" class="rys-birdie-central  rys-birdie-central-android"></a></div><div class="rys-prompt-bubble-wrap"><span class="rys-prompt-bubble"></span></div></div><div id="rys-context-menu" class="rys-context-menu-container" style="display: none;"><ul class="audero-context-menu"><li id="J_rys-show-main-window"><div class="col col-1"><span class="item-flag">&nbsp;</span></div><div class="col col-2"><span>打开主窗口</span></div></li><li id="J_rys-fullscreen-auto-hide"><div class="col col-1"><span class="item-flag">&nbsp;</span></div><div class="col col-2"><span>全屏时隐藏</span></div></li><li id="J_rys-hide-logo"><div class="col col-1"><span class="item-flag">&nbsp;</span></div><div class="col col-2"><span>隐藏小图标</span></div></li></ul></div><script src="./Bluetooth LE on BeagleBone Black with TI SensorTag   Zephyr-Labs_files/pv.gif"></script></body></html>
